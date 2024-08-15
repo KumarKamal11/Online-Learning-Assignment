@@ -1,0 +1,70 @@
+.course-study-page {
+  padding: 30px 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50%;
+  width: 30%;
+  margin: auto;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  border-radius: 5px;
+  box-shadow: 2px solid black;
+
+  h2 {
+    font-size: 23px;
+    color: blue;
+    text-align: center;
+    margin-bottom: -16px;
+  }
+
+  h4 {
+    font-size: 17px;
+    color: black;
+    text-align: center;
+    margin-bottom: -25px;
+  }
+
+  h5 {
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    margin-top: 8px;
+  }
+  #course-description {
+    text-align: justify;
+    padding: 5%;
+    margin-bottom: -10%;
+  }
+  #h5-durations {
+    color: gray;
+    margin-top: -18px;
+    font-size: 12px;
+    margin-bottom: -12px;
+  }
+
+  #h2-lectures {
+    margin-top: -15px;
+    color: white;
+  }
+
+  #link-lectures {
+    background-color:   #0001ff;
+  }
+
+  a {
+    text-decoration: none;
+    background-color: white;
+    padding: 18px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .course-study-page {
+    width: 90%;
+  }
+}
